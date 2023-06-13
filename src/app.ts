@@ -1,7 +1,7 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application } from 'express';
 import cors from 'cors';
 import { UserRouter } from './app/modules/user/user.route';
-// import { userController } from './app/modules/user/user.service';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
 const app: Application = express();
 
 // use all the middleware
@@ -12,13 +12,12 @@ app.use(express.urlencoded({ extended: true }));
 // Application Users Route
 app.use('/api/v1/users', UserRouter);
 
-app.get('/', async (req: Request, res: Response) => {
-  // await userController.createUser({
-  //   id: '9999',
-  //   password: '1234656',
-  //   role: 'student',
-  // });
-  res.send('Hello World!');
-});
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   // throw new ApiError(400, 'Allah Is Almighty');
+//   // next('Eato Boro Error');
+//   throw new Error('Fucking Error');
+// });
+
+app.use(globalErrorHandler);
 
 export default app;
