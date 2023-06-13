@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\successes\\.fe8a2b80f7949853619095c9c8fef227ee190f63-audit.json",
+    "files": [
+        {
+            "date": 1686675333684,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\successes\\phu-2023-06-13-22-success.log",
+            "hash": "98bbbd0f55a3dae16e14eaa0dddd4dcfe7560a0b99611b269f601b9f32937043"
+        },
+        {
+            "date": 1686677309850,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\successes\\phu-2023-06-13-23-success.log",
+            "hash": "d97525a9273a47b59c7cab0aae8dc2a23d6b1d27cf09d1144c9e9515e0768039"
+        },
+        {
+            "date": 1686679366661,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\successes\\phu-2023-06-14-00-success.log",
+            "hash": "ab287ebbe90eded5eb8c348388253461a81fe71f0b9475501cae428b171253e7"
+        },
+        {
+            "date": 1686683221332,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\successes\\phu-2023-06-14-01-success.log",
+            "hash": "26c20c6a113e6c38ffef3d0a8ca51970fd4f28222169807ecc921beb1ef64307"
+        },
+        {
+            "date": 1686686857973,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\successes\\phu-2023-06-14-02-success.log",
+            "hash": "ce170dbdfd39e4b8b0ebde30e538bc9842c8ef0a4ffc47b9d8cbdd06e19828fd"
+        }
+    ],
+    "hashType": "sha256"
+}

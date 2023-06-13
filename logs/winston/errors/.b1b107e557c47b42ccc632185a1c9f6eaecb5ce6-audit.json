@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\.b1b107e557c47b42ccc632185a1c9f6eaecb5ce6-audit.json",
+    "files": [
+        {
+            "date": 1686675333689,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-13-22-error.log",
+            "hash": "fc410c61a722b8cadba8ebf3602df0a2674254cdd1cb10d177832b610efd706a"
+        },
+        {
+            "date": 1686677309855,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-13-23-error.log",
+            "hash": "880cb4af2bb700ed03749358cd012cf5b2e628541d0ed7ea5a77207f0c983c02"
+        },
+        {
+            "date": 1686679366665,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-00-error.log",
+            "hash": "a8ccd3fd585ba8f57fe707db5524bb93481a02437304df354ced6f6cae9d70d1"
+        },
+        {
+            "date": 1686683221337,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-01-error.log",
+            "hash": "a93d68bee921fa089765a5c7d0646a9f7d3bc39f32f9b387ae0ae007be1f79f7"
+        },
+        {
+            "date": 1686686857979,
+            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-02-error.log",
+            "hash": "f53f053168c2de29cd834dcfd09f131c7496d879de33d1c4dc352e50217f2b40"
+        }
+    ],
+    "hashType": "sha256"
+}

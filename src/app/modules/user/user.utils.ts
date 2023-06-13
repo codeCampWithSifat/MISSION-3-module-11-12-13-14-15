@@ -1,5 +1,3 @@
-// let lastUserId = 0;
-
 import { User } from './user.model';
 
 export const findLastUserId = async () => {
