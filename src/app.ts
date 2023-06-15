@@ -1,8 +1,7 @@
 import express, { Application } from 'express';
 import cors from 'cors';
-import { UserRouter } from './app/modules/user/user.route';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import { AcademicSemesterRoutes } from './app/modules/academicSemester/academicSemester.route';
+import router from './app/routes';
 const app: Application = express();
 
 // use all the middleware
@@ -11,10 +10,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Application Users Route
-app.use('/api/v1/users', UserRouter);
+// app.use('/api/v1/users', UserRouter);
 
-// Academic Semesters Route
-app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+// // Academic Semesters Route
+// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
+
+app.use('/api/v1', router);
 
 // app.get('/', (req: Request, res: Response, next: NextFunction) => {
 //   // throw new ApiError(400, 'Allah Is Almighty');
