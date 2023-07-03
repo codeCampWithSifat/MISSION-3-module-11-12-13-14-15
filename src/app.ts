@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
@@ -42,10 +43,6 @@ app.use('/', (req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
-// const academicSemeter = {
-//   code: '01',
-//   year: '2026',
-// };
 // const testId = async () => {
 //   const testId = await generateFacultyId();
 //   console.log(testId);

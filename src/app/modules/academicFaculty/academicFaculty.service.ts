@@ -29,7 +29,7 @@ const getAllFaculties = async (
 ): Promise<IGenericResponse<IAcademicFaculty[]>> => {
   const { searchTerm, ...filtersData } = filters;
   const { page, limit, skip, sortBy, sortOrder } =
-    paginationHelpers.calculataPagination(paginationOptions);
+    paginationHelpers.calculatePagination(paginationOptions);
 
   const andConditions = [];
 
@@ -64,7 +64,7 @@ const getAllFaculties = async (
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
-  const total = await AcademicFaculty.countDocuments();
+  const total = await AcademicFaculty.countDocuments(whereCondition);
 
   return {
     meta: {

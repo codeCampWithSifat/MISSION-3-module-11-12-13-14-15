@@ -75,7 +75,7 @@ const getAllSemesters = async (
     });
   }
   const { page, limit, skip, sortBy, sortOrder } =
-    paginationHelpers.calculataPagination(paginationOptions);
+    paginationHelpers.calculatePagination(paginationOptions);
 
   const sortConditions: { [key: string]: SortOrder } = {};
 
