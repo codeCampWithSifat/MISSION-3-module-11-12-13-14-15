@@ -1,255 +1,255 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\.b1b107e557c47b42ccc632185a1c9f6eaecb5ce6-audit.json",
+  "files": [
+    {
+      "date": 1686675333689,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-13-22-error.log",
+      "hash": "fc410c61a722b8cadba8ebf3602df0a2674254cdd1cb10d177832b610efd706a"
     },
-    "auditLog": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\.b1b107e557c47b42ccc632185a1c9f6eaecb5ce6-audit.json",
-    "files": [
-        {
-            "date": 1686675333689,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-13-22-error.log",
-            "hash": "fc410c61a722b8cadba8ebf3602df0a2674254cdd1cb10d177832b610efd706a"
-        },
-        {
-            "date": 1686677309855,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-13-23-error.log",
-            "hash": "880cb4af2bb700ed03749358cd012cf5b2e628541d0ed7ea5a77207f0c983c02"
-        },
-        {
-            "date": 1686679366665,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-00-error.log",
-            "hash": "a8ccd3fd585ba8f57fe707db5524bb93481a02437304df354ced6f6cae9d70d1"
-        },
-        {
-            "date": 1686683221337,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-01-error.log",
-            "hash": "a93d68bee921fa089765a5c7d0646a9f7d3bc39f32f9b387ae0ae007be1f79f7"
-        },
-        {
-            "date": 1686686857979,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-02-error.log",
-            "hash": "f53f053168c2de29cd834dcfd09f131c7496d879de33d1c4dc352e50217f2b40"
-        },
-        {
-            "date": 1686690659928,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-03-error.log",
-            "hash": "6455a7ae3f7f2c834d93f700faed2ba114f2bc0b1eef7981baab1cf77684e149"
-        },
-        {
-            "date": 1686755199100,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-21-error.log",
-            "hash": "5afa04da2339ac0a71c6921e64c862c37836246b99ef3188b96f7938d7ed4a58"
-        },
-        {
-            "date": 1686759699778,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-22-error.log",
-            "hash": "e1e4fcfac4bb47e7897a2f4aac0871b56af5c40f795e7ca552adb331e2b133e8"
-        },
-        {
-            "date": 1686762006496,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-23-error.log",
-            "hash": "0b8e80a5817851fe762a7dfd380efa33ba79357d576513452d5fa71d8c3e5b83"
-        },
-        {
-            "date": 1686772036043,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-01-error.log",
-            "hash": "7e7d573a3ce0932d042c662406c1390d1668c04c928dda8fa491d477151db02a"
-        },
-        {
-            "date": 1686774740398,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-02-error.log",
-            "hash": "a664b7db0aa0b0a1fe985c7ca8e3db08a2d03fec33586b4848148ed762a55a42"
-        },
-        {
-            "date": 1686776782638,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-03-error.log",
-            "hash": "de99c7298b32f3b04b6820f2f0c0bab60633e6a252205a669db378508261adb1"
-        },
-        {
-            "date": 1686785742175,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-05-error.log",
-            "hash": "eb7ac9e768702d30854c2d5a862a4e396284148a26609d706b05543e6e2e414d"
-        },
-        {
-            "date": 1686787296667,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-06-error.log",
-            "hash": "5558f6b62da7f0bb8ed1a06806b4e13873fbb0842ea6385f9c86146d185ef20e"
-        },
-        {
-            "date": 1686850233489,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-23-error.log",
-            "hash": "460e811ed046c61f73e4aad72ff155c7299c4420306ee9f5eaefbe9597811cb5"
-        },
-        {
-            "date": 1686854484186,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-16-00-error.log",
-            "hash": "32d1324683c003166764893ccbf18565c7639e798be5ca35bbca0749bae3fe25"
-        },
-        {
-            "date": 1686915163149,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-16-17-error.log",
-            "hash": "6c5c07867e8b182d0186f47587877b077fc9b766c5ef2651cc850084d882285a"
-        },
-        {
-            "date": 1686917035332,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-16-18-error.log",
-            "hash": "eef9c7b918218aef536c5dd89377e1d2cae578cc157cdf9efa8c31b4d1ae6c8f"
-        },
-        {
-            "date": 1686952061512,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-03-error.log",
-            "hash": "c1d34c5c224cf8cc4173726cbe0eaf53a0266c46751c6e33378ac1578919124e"
-        },
-        {
-            "date": 1686954098606,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-04-error.log",
-            "hash": "d048b67c5b590ef8af384605baacaa8c8939589d1fc1d038a0706f2969e203af"
-        },
-        {
-            "date": 1686958633069,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-05-error.log",
-            "hash": "aff8d1ff77bcf249e8bd468215100e8db8d4715b1bf803c971847084be5f9efa"
-        },
-        {
-            "date": 1686960014062,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-06-error.log",
-            "hash": "87f31b44e7b7ac857d854ee76f2270fb4ff4bb3c26b18f0faa05db355e0a534b"
-        },
-        {
-            "date": 1686990744776,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-14-error.log",
-            "hash": "5bd096c2dc47916b8a4f85193b1db3b89fef7bef221f08cfbf1ec66dd36a3e74"
-        },
-        {
-            "date": 1687034659483,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-02-error.log",
-            "hash": "c7457991281896dec31b84d913cddf278e85af34ba2d9592c100d9cd48219609"
-        },
-        {
-            "date": 1687039142462,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-03-error.log",
-            "hash": "c68c3d60e5cd1c2a3d06d2e85eafd2ffb74071ec82028bae56b759c97b4a8e27"
-        },
-        {
-            "date": 1687039365494,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-04-error.log",
-            "hash": "733c1aad26caacf3549817217f75b2c2c20f899dbf6d4b57bc2b6a815e597f0c"
-        },
-        {
-            "date": 1687044286410,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-05-error.log",
-            "hash": "0bb91523832d2ac68d5a737bb25ca0530b4c127cff925340663f8a2534855a07"
-        },
-        {
-            "date": 1687046839670,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-06-error.log",
-            "hash": "609fe282592df5c72d051ee18a918cb2c14b49eb80f80b648fd4b4189caca33b"
-        },
-        {
-            "date": 1687050919586,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-07-error.log",
-            "hash": "d88ff0d62168280858fe7b32eaea7f340a8b372852af60bdee211205c511b110"
-        },
-        {
-            "date": 1687100441248,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-21-error.log",
-            "hash": "8efe1260e786029792229631120f0471fe34d17c68e2e89f94bf7d9d35d90070"
-        },
-        {
-            "date": 1687105961753,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-22-error.log",
-            "hash": "c030b8ebfc0aa74f244354c874c02a8bfdb6fc36713c0a9e8bba514df93cff1c"
-        },
-        {
-            "date": 1687107874296,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-23-error.log",
-            "hash": "32e128a1bbbc5e9cc70f730e4900924dbedc948beaded1480ba619a6dc616733"
-        },
-        {
-            "date": 1687111259106,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-19-00-error.log",
-            "hash": "5a0c1c211bd2c91e1e1c4028fea808e9ed7ec70bce725437958acb841fea6c6c"
-        },
-        {
-            "date": 1687117060876,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-19-01-error.log",
-            "hash": "d89f713e9c5219a8f2982d7aea42513f875e714cb6786ac243a11fd24c6a144a"
-        },
-        {
-            "date": 1687310188481,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-07-error.log",
-            "hash": "ea9375277ee74a569c1079f6c1a06c7035aad51d29289a28f17fb1a9d686eb36"
-        },
-        {
-            "date": 1687317971719,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-09-error.log",
-            "hash": "ad149cca414879d6116b32d0964bcb67bcc2d6d1cc3084aaf09f3b021d5e9da5"
-        },
-        {
-            "date": 1687320178423,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-10-error.log",
-            "hash": "2c77ca8c71e6c5a72596ef725d041fde96c63df5c1860a755071a370439416ba"
-        },
-        {
-            "date": 1687328195995,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-12-error.log",
-            "hash": "eebdd333ee6bc63d2e3df6e1d84611e1fbc0ce9bf7b1739a4dd9c1957eef410e"
-        },
-        {
-            "date": 1687331062569,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-13-error.log",
-            "hash": "9db8e6b3c2cff8d0ee9bd3bd12aae855c3bae8a096eb660729c9c9ef06427e85"
-        },
-        {
-            "date": 1687334455333,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-14-error.log",
-            "hash": "58e67ed90cdf6cbfc49c9db2ff42d6b346fdabbfc455b0805977943441d927ae"
-        },
-        {
-            "date": 1687345163903,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-16-error.log",
-            "hash": "3c6e5b5d0a63fba4152aa0ce7111e46c76191276f0dc95f41b8c49951c6b7196"
-        },
-        {
-            "date": 1687345247170,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-17-error.log",
-            "hash": "feee4e8f5d5506c5ec9eb6dc8d0cf477e322d3601d54998e29517946fbd49745"
-        },
-        {
-            "date": 1687358906828,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-20-error.log",
-            "hash": "56992738bc5f589105834b15b88fea317110c3de81e4c885ba183bb5a45ba0f8"
-        },
-        {
-            "date": 1687360104881,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-21-error.log",
-            "hash": "f80bc62cf44978ce419db56ddb9620db84c740c31a4a4650a032c8ff21246b6e"
-        },
-        {
-            "date": 1687393328840,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-22-06-error.log",
-            "hash": "71cc8a2c113aa9d75cbaa8c7998f1daa2cfc35fde7acb6606d629f2cbd5ce575"
-        },
-        {
-            "date": 1687404020422,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-22-09-error.log",
-            "hash": "511b690cd7ac92049904a97434875d396247679273a82928fb394476ccae461f"
-        },
-        {
-            "date": 1687459111642,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-23-00-error.log",
-            "hash": "f4ab8f0e6d2f61594264efa535126c43cfd87cadf52152dbdc9e2fa751ddfd54"
-        },
-        {
-            "date": 1687462664657,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-23-01-error.log",
-            "hash": "a9cf3cfa78e8e85a169f217fcd46951646c91ca5be76c21cb4658af1e6dadc6e"
-        },
-        {
-            "date": 1687467305786,
-            "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-23-02-error.log",
-            "hash": "4fb003d1281da3fb23bea3c58c31e9549a6091cd801927aefcae074d0f390d66"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1686677309855,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-13-23-error.log",
+      "hash": "880cb4af2bb700ed03749358cd012cf5b2e628541d0ed7ea5a77207f0c983c02"
+    },
+    {
+      "date": 1686679366665,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-00-error.log",
+      "hash": "a8ccd3fd585ba8f57fe707db5524bb93481a02437304df354ced6f6cae9d70d1"
+    },
+    {
+      "date": 1686683221337,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-01-error.log",
+      "hash": "a93d68bee921fa089765a5c7d0646a9f7d3bc39f32f9b387ae0ae007be1f79f7"
+    },
+    {
+      "date": 1686686857979,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-02-error.log",
+      "hash": "f53f053168c2de29cd834dcfd09f131c7496d879de33d1c4dc352e50217f2b40"
+    },
+    {
+      "date": 1686690659928,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-03-error.log",
+      "hash": "6455a7ae3f7f2c834d93f700faed2ba114f2bc0b1eef7981baab1cf77684e149"
+    },
+    {
+      "date": 1686755199100,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-21-error.log",
+      "hash": "5afa04da2339ac0a71c6921e64c862c37836246b99ef3188b96f7938d7ed4a58"
+    },
+    {
+      "date": 1686759699778,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-22-error.log",
+      "hash": "e1e4fcfac4bb47e7897a2f4aac0871b56af5c40f795e7ca552adb331e2b133e8"
+    },
+    {
+      "date": 1686762006496,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-14-23-error.log",
+      "hash": "0b8e80a5817851fe762a7dfd380efa33ba79357d576513452d5fa71d8c3e5b83"
+    },
+    {
+      "date": 1686772036043,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-01-error.log",
+      "hash": "7e7d573a3ce0932d042c662406c1390d1668c04c928dda8fa491d477151db02a"
+    },
+    {
+      "date": 1686774740398,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-02-error.log",
+      "hash": "a664b7db0aa0b0a1fe985c7ca8e3db08a2d03fec33586b4848148ed762a55a42"
+    },
+    {
+      "date": 1686776782638,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-03-error.log",
+      "hash": "de99c7298b32f3b04b6820f2f0c0bab60633e6a252205a669db378508261adb1"
+    },
+    {
+      "date": 1686785742175,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-05-error.log",
+      "hash": "eb7ac9e768702d30854c2d5a862a4e396284148a26609d706b05543e6e2e414d"
+    },
+    {
+      "date": 1686787296667,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-06-error.log",
+      "hash": "5558f6b62da7f0bb8ed1a06806b4e13873fbb0842ea6385f9c86146d185ef20e"
+    },
+    {
+      "date": 1686850233489,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-15-23-error.log",
+      "hash": "460e811ed046c61f73e4aad72ff155c7299c4420306ee9f5eaefbe9597811cb5"
+    },
+    {
+      "date": 1686854484186,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-16-00-error.log",
+      "hash": "32d1324683c003166764893ccbf18565c7639e798be5ca35bbca0749bae3fe25"
+    },
+    {
+      "date": 1686915163149,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-16-17-error.log",
+      "hash": "6c5c07867e8b182d0186f47587877b077fc9b766c5ef2651cc850084d882285a"
+    },
+    {
+      "date": 1686917035332,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-16-18-error.log",
+      "hash": "eef9c7b918218aef536c5dd89377e1d2cae578cc157cdf9efa8c31b4d1ae6c8f"
+    },
+    {
+      "date": 1686952061512,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-03-error.log",
+      "hash": "c1d34c5c224cf8cc4173726cbe0eaf53a0266c46751c6e33378ac1578919124e"
+    },
+    {
+      "date": 1686954098606,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-04-error.log",
+      "hash": "d048b67c5b590ef8af384605baacaa8c8939589d1fc1d038a0706f2969e203af"
+    },
+    {
+      "date": 1686958633069,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-05-error.log",
+      "hash": "aff8d1ff77bcf249e8bd468215100e8db8d4715b1bf803c971847084be5f9efa"
+    },
+    {
+      "date": 1686960014062,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-06-error.log",
+      "hash": "87f31b44e7b7ac857d854ee76f2270fb4ff4bb3c26b18f0faa05db355e0a534b"
+    },
+    {
+      "date": 1686990744776,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-17-14-error.log",
+      "hash": "5bd096c2dc47916b8a4f85193b1db3b89fef7bef221f08cfbf1ec66dd36a3e74"
+    },
+    {
+      "date": 1687034659483,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-02-error.log",
+      "hash": "c7457991281896dec31b84d913cddf278e85af34ba2d9592c100d9cd48219609"
+    },
+    {
+      "date": 1687039142462,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-03-error.log",
+      "hash": "c68c3d60e5cd1c2a3d06d2e85eafd2ffb74071ec82028bae56b759c97b4a8e27"
+    },
+    {
+      "date": 1687039365494,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-04-error.log",
+      "hash": "733c1aad26caacf3549817217f75b2c2c20f899dbf6d4b57bc2b6a815e597f0c"
+    },
+    {
+      "date": 1687044286410,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-05-error.log",
+      "hash": "0bb91523832d2ac68d5a737bb25ca0530b4c127cff925340663f8a2534855a07"
+    },
+    {
+      "date": 1687046839670,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-06-error.log",
+      "hash": "609fe282592df5c72d051ee18a918cb2c14b49eb80f80b648fd4b4189caca33b"
+    },
+    {
+      "date": 1687050919586,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-07-error.log",
+      "hash": "d88ff0d62168280858fe7b32eaea7f340a8b372852af60bdee211205c511b110"
+    },
+    {
+      "date": 1687100441248,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-21-error.log",
+      "hash": "8efe1260e786029792229631120f0471fe34d17c68e2e89f94bf7d9d35d90070"
+    },
+    {
+      "date": 1687105961753,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-22-error.log",
+      "hash": "c030b8ebfc0aa74f244354c874c02a8bfdb6fc36713c0a9e8bba514df93cff1c"
+    },
+    {
+      "date": 1687107874296,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-18-23-error.log",
+      "hash": "32e128a1bbbc5e9cc70f730e4900924dbedc948beaded1480ba619a6dc616733"
+    },
+    {
+      "date": 1687111259106,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-19-00-error.log",
+      "hash": "5a0c1c211bd2c91e1e1c4028fea808e9ed7ec70bce725437958acb841fea6c6c"
+    },
+    {
+      "date": 1687117060876,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-19-01-error.log",
+      "hash": "d89f713e9c5219a8f2982d7aea42513f875e714cb6786ac243a11fd24c6a144a"
+    },
+    {
+      "date": 1687310188481,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-07-error.log",
+      "hash": "ea9375277ee74a569c1079f6c1a06c7035aad51d29289a28f17fb1a9d686eb36"
+    },
+    {
+      "date": 1687317971719,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-09-error.log",
+      "hash": "ad149cca414879d6116b32d0964bcb67bcc2d6d1cc3084aaf09f3b021d5e9da5"
+    },
+    {
+      "date": 1687320178423,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-10-error.log",
+      "hash": "2c77ca8c71e6c5a72596ef725d041fde96c63df5c1860a755071a370439416ba"
+    },
+    {
+      "date": 1687328195995,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-12-error.log",
+      "hash": "eebdd333ee6bc63d2e3df6e1d84611e1fbc0ce9bf7b1739a4dd9c1957eef410e"
+    },
+    {
+      "date": 1687331062569,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-13-error.log",
+      "hash": "9db8e6b3c2cff8d0ee9bd3bd12aae855c3bae8a096eb660729c9c9ef06427e85"
+    },
+    {
+      "date": 1687334455333,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-14-error.log",
+      "hash": "58e67ed90cdf6cbfc49c9db2ff42d6b346fdabbfc455b0805977943441d927ae"
+    },
+    {
+      "date": 1687345163903,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-16-error.log",
+      "hash": "3c6e5b5d0a63fba4152aa0ce7111e46c76191276f0dc95f41b8c49951c6b7196"
+    },
+    {
+      "date": 1687345247170,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-17-error.log",
+      "hash": "feee4e8f5d5506c5ec9eb6dc8d0cf477e322d3601d54998e29517946fbd49745"
+    },
+    {
+      "date": 1687358906828,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-20-error.log",
+      "hash": "56992738bc5f589105834b15b88fea317110c3de81e4c885ba183bb5a45ba0f8"
+    },
+    {
+      "date": 1687360104881,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-21-21-error.log",
+      "hash": "f80bc62cf44978ce419db56ddb9620db84c740c31a4a4650a032c8ff21246b6e"
+    },
+    {
+      "date": 1687393328840,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-22-06-error.log",
+      "hash": "71cc8a2c113aa9d75cbaa8c7998f1daa2cfc35fde7acb6606d629f2cbd5ce575"
+    },
+    {
+      "date": 1687404020422,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-22-09-error.log",
+      "hash": "511b690cd7ac92049904a97434875d396247679273a82928fb394476ccae461f"
+    },
+    {
+      "date": 1687459111642,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-23-00-error.log",
+      "hash": "f4ab8f0e6d2f61594264efa535126c43cfd87cadf52152dbdc9e2fa751ddfd54"
+    },
+    {
+      "date": 1687462664657,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-23-01-error.log",
+      "hash": "a9cf3cfa78e8e85a169f217fcd46951646c91ca5be76c21cb4658af1e6dadc6e"
+    },
+    {
+      "date": 1687467305786,
+      "name": "C:\\NEXT-LEVEL-WEB-DEVELOPMENT-AGAIN\\MISSION-3\\module-11-12-13-14-15\\logs\\winston\\errors\\phu-2023-06-23-02-error.log",
+      "hash": "4fb003d1281da3fb23bea3c58c31e9549a6091cd801927aefcae074d0f390d66"
+    }
+  ],
+  "hashType": "sha256"
 }
