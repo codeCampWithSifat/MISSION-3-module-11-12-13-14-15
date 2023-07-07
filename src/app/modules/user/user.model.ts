@@ -1,7 +1,11 @@
+/* eslint-disable @typescript-eslint/no-this-alias */
+/* eslint-disable no-console */
 import { Schema, model } from 'mongoose';
 import { IUser, UserModel } from './user.interface';
+import bcrypt from 'bcrypt';
+import config from '../../../config';
 
-export const userSchema = new Schema<IUser>(
+export const UserSchema = new Schema<IUser, UserModel>(
   {
     id: {
       type: String,
@@ -15,6 +19,11 @@ export const userSchema = new Schema<IUser>(
     password: {
       type: String,
       required: true,
+      select: 0,
+    },
+    needsPasswordChange: {
+      type: Boolean,
+      default: true,
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -37,4 +46,51 @@ export const userSchema = new Schema<IUser>(
   }
 );
 
-export const User = model<IUser, UserModel>('User', userSchema);
+UserSchema.statics.isUserExist = async function (
+  id: string
+): Promise<Pick<
+  IUser,
+  'id' | 'password' | 'needsPasswordChange' | 'role'
+> | null> {
+  const user = await User.findOne(
+    { id },
+    { id: 1, role: 1, password: 1, needsPasswordChange: 1 }
+  );
+  return user;
+};
+
+UserSchema.statics.isPasswordMatched = async function (
+  givenPassword: string,
+  savedPassword: string
+): Promise<boolean> {
+  return await bcrypt.compare(givenPassword, savedPassword);
+};
+
+UserSchema.pre('save', async function (next) {
+  const user = this;
+  user.password = await bcrypt.hash(
+    user.password,
+    Number(config.bcrypt_salt_rounds)
+  );
+  next();
+});
+
+export const User = model<IUser, UserModel>('User', UserSchema);
+
+// UserSchema.methods.isUserExist = async function (
+//   id: string
+// ): Promise<Partial<IUser> | null> {
+//   const user = await User.findOne(
+//     { id },
+//     { id: 1, password: 1, needsPasswordChange: 1 }
+//   );
+//   return user;
+// };
+
+// UserSchema.methods.isPasswordMatched = async function (
+//   givenPassword: string,
+//   savedPassword: string
+// ): Promise<boolean> {
+//   const isMatched = await bcrypt.compare(givenPassword, savedPassword);
+//   return isMatched;
+// };

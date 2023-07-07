@@ -4,27 +4,16 @@ import cors from 'cors';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import router from './app/routes';
 import httpStatus from 'http-status';
-// import { generateFacultyId } from './app/modules/user/user.utils';
 const app: Application = express();
+import cookieParser from 'cookie-parser';
 
 // use all the middleware
+app.use(cookieParser());
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Application Users Route
-// app.use('/api/v1/users', UserRouter);
-
-// // Academic Semesters Route
-// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
-
 app.use('/api/v1', router);
-
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   // throw new ApiError(400, 'Allah Is Almighty');
-//   // next('Eato Boro Error');
-//   throw new Error('Fucking Error');
-// });
 
 app.use(globalErrorHandler);
 
@@ -43,10 +32,10 @@ app.use('/', (req: Request, res: Response, next: NextFunction) => {
   next();
 });
 
+export default app;
+
 // const testId = async () => {
 //   const testId = await generateFacultyId();
 //   console.log(testId);
 // };
 // testId();
-
-export default app;

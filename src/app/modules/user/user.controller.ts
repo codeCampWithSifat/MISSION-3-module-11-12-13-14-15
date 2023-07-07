@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { Request, RequestHandler, Response } from 'express';
 import { UserService } from './user.service';
 import catchAsync from '../../../shared/catchAsync';

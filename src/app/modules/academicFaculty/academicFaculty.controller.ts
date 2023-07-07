@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { Request, Response } from 'express';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/sendResponse';
@@ -35,6 +36,8 @@ const getSingleFaculty = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
+  console.log(req.headers.authorization);
+  console.log(req.user);
   const paginationOptions = pick(req.query, paginationFields);
   const filters = pick(req.query, academicFacultyFilterableFields);
   //   console.log(paginationOptions);
